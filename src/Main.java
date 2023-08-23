@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-       int a = 1560; // стоимость билета
-       int b= a/20; // бонусы
+       int price = 1560; // стоимость билета
+       int bonus= price/20; // бонусы
 
-        System.out.println("Введите значение стоимости билета - " + a + " рублей") ;
+        System.out.println("Введите значение стоимости билета - " + price + " рублей") ;
         System.out.println("За каждые 20 рублей Вам начисляется 1 милл");
-        System.out.println("Вам начислен - " +b + " милл");
+        System.out.println("Вам начислен - " + bonus + " милл");
 
 
         // Объявляете переменные для входных данных и
